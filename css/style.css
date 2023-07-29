@@ -1,4 +1,5 @@
-.box{ 
+/* position property */
+/* .box{ 
     height:300px;
     width: 100%;
     position: relative;}
@@ -16,4 +17,41 @@
     left: 0;}
 .img{
     height: 300px;
-    width: 100%;}
+    width: 100%;} */
+    /* position property */
+    /* transition */
+/* .bg-image{
+    background-image: url(../image/image-3.jpg);
+    width: 100%;
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-wraper{
+    position: absolute;
+    top:200px;
+    left: 50px;
+    color: #fff;}
+.title-h1{
+    color: #fff;
+    font-size: 40px;
+    transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 2s;
+}
+.title-h1:hover{
+    color:aqua
+} */
+/* transition */
+.animation-block{
+    background-color: rgb(25, 158, 107);
+    height: 200px;
+    width:200px;
+    position:relative;
+    animation-name: cube;
+}
+@keyframe cube{
+    from{top:0px}
+    to{top:500px}
+}
